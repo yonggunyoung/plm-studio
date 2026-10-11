@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PLM Studio 개인정보처리방침 · Privacy Policy</title>
+<style>
+  :root { --bg:#f6f4ef; --fg:#1f2a44; --muted:#5a6573; --line:#d9d4c7; --accent:#2e6e6a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12161d; --fg:#e7ecf1; --muted:#98a3b0; --line:#2a313b; --accent:#6bb8af; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:28px; line-height:1.3; margin:0 0 8px; }
+  h2 { font-size:22px; margin:48px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  h3 { font-size:17px; margin:28px 0 6px; }
+  p, li { color:var(--fg); }
+  .meta { color:var(--muted); font-size:14px; }
+  a { color:var(--accent); }
+  ul { padding-left:22px; }
+</style>
+</head>
+<body>
+<main>
+<h1>PLM Studio 개인정보처리방침<br>Privacy Policy</h1>
+<p class="meta">PLM Studio — Sunset Park Pavilion 채널 운영 도구 · <a href="./">홈</a></p>
+
+<h2 id="ko">한국어</h2>
+<p class="meta"><strong>시행일:</strong> 2026-10-11 · <strong>운영자:</strong> Sunset Park Pavilion 채널 운영자 · <strong>문의:</strong> <a href="https://github.com/yonggunyoung/plm-studio/issues">GitHub 문의(이슈)</a></p>
+
+<h3>1. 이 앱이 하는 일</h3>
+<p>PLM Studio는 운영자 본인의 YouTube 채널(Sunset Park Pavilion)에 운영자가 만든 음악 플레이리스트 영상을 올리고 예약·관리하기 위해 운영자 개인 PC에서만 실행하는 도구입니다. 이 앱은 <strong>YouTube API 서비스(YouTube Data API v3, YouTube Analytics·Reporting API)</strong>를 사용합니다. 이 앱을 쓰면 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>에 동의하는 것이며, Google의 개인정보 처리는 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 따릅니다.</p>
+
+<h3>2. 수집·이용하는 정보</h3>
+<ul>
+  <li>연결한 YouTube 채널의 채널 ID·채널 이름</li>
+  <li>이 앱이 올린 영상의 메타데이터(제목·설명·태그·공개 범위·예약 시각·처리 상태)와 역검증 결과</li>
+  <li>채널·영상 통계(조회수 등)의 원값 — 화면에 원값 그대로 보여 주기만 하고, 이 값으로 새 지표를 계산하거나 다른 데이터와 결합하지 않습니다</li>
+  <li>OAuth 토큰(액세스·갱신 토큰) — 운영자 영상의 업로드·수정·댓글 게시에만 씁니다</li>
+  <li>이 앱은 시청자 개인정보를 수집하지 않습니다.</li>
+</ul>
+
+<h3>3. 저장 위치와 보호</h3>
+<p>모든 정보는 운영자 PC(로컬 작업 폴더)에만 저장합니다. OAuth 클라이언트 비밀과 갱신 토큰은 Windows DPAPI(현재 사용자 계정)로 암호화해 저장합니다. 외부 서버로 보내지 않습니다.</p>
+
+<h3>4. 보관 기간</h3>
+<ul>
+  <li>YouTube API로 받은 값(영상 상태·통계 등)은 받은 날부터 <strong>30일 안에 갱신하거나 삭제</strong>합니다.</li>
+  <li>Analytics·Reporting 데이터는 <strong>30일마다 인가가 유효한지 확인</strong>하고, 인가가 없으면 더 이상 보관하지 않습니다.</li>
+  <li>앱이 만든 입력(직접 쓴 제목·설명 원문, 파일 해시, 업로드 기록)은 운영 기록으로 보관합니다.</li>
+</ul>
+
+<h3>5. 권한 철회와 삭제</h3>
+<ul>
+  <li>앱의 <code>설정 &gt; YouTube 연결·발행 &gt; 연결 해제</code>를 누르면 토큰을 폐기(revoke)하고 API로 받은 데이터를 지웁니다.</li>
+  <li><a href="https://myaccount.google.com/permissions">Google 계정 권한 페이지</a>에서도 이 앱의 접근을 철회할 수 있습니다.</li>
+  <li>철회를 감지하면 <strong>7일 안에</strong> 이 앱이 저장한 API 데이터(캐시·통계)를 삭제합니다.</li>
+</ul>
+
+<h3>6. 문의</h3>
+<p><a href="https://github.com/yonggunyoung/plm-studio/issues">GitHub 문의(이슈)</a>로 연락해 주세요. 개인정보 관련 문의에 답합니다.</p>
+
+<h2 id="en">English</h2>
+<p class="meta"><strong>Effective date:</strong> 2026-10-11 · <strong>Operator:</strong> Operator of the Sunset Park Pavilion channel · <strong>Contact:</strong> <a href="https://github.com/yonggunyoung/plm-studio/issues">GitHub issues</a></p>
+
+<h3>1. What this app does</h3>
+<p>PLM Studio is a tool that runs only on the operator's own PC to upload, schedule and manage music playlist videos created by the operator on the operator's own YouTube channel (Sunset Park Pavilion). This app uses <strong>YouTube API Services</strong> (YouTube Data API v3, YouTube Analytics and Reporting APIs). By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; Google's handling of data is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>2. Information we collect and use</h3>
+<ul>
+  <li>The connected channel's ID and title</li>
+  <li>Metadata of videos uploaded by this app (title, description, tags, privacy status, scheduled time, processing status) and verification results</li>
+  <li>Raw channel/video statistics (such as view counts) — displayed as-is only; we do not compute derived metrics or combine them with other data</li>
+  <li>OAuth tokens (access/refresh), used only to upload, update and comment on the operator's videos</li>
+  <li>This app does not collect any viewer personal data.</li>
+</ul>
+
+<h3>3. Storage and protection</h3>
+<p>All data stays on the operator's PC (local workspace). The OAuth client secret and refresh token are encrypted with Windows DPAPI (current user). Nothing is sent to third-party servers.</p>
+
+<h3>4. Retention</h3>
+<ul>
+  <li>Values received from YouTube API Services are <strong>refreshed or deleted within 30 days</strong>.</li>
+  <li>Authorization for Analytics/Reporting data is <strong>re-checked every 30 days</strong>; without valid authorization the data is no longer stored.</li>
+  <li>Inputs created by this app (our own titles/descriptions, file hashes, upload records) are kept as operating records.</li>
+</ul>
+
+<h3>5. Revoking access and deletion</h3>
+<ul>
+  <li>Use <code>Settings &gt; YouTube &gt; Disconnect (revoke)</code> in the app to revoke tokens and delete API data.</li>
+  <li>You can also revoke access at the <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>.</li>
+  <li>After revocation is detected, API data stored by this app (cache and statistics) is <strong>deleted within 7 days</strong>.</li>
+</ul>
+
+<h3>6. Contact</h3>
+<p>Please reach us via <a href="https://github.com/yonggunyoung/plm-studio/issues">GitHub issues</a>.</p>
+</main>
+</body>
+</html>
